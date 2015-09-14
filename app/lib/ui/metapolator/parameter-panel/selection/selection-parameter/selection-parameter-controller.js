@@ -187,6 +187,10 @@ define([
             $scope.model.parent.updateParameters();
         };
 
+        $scope.mousewheel = function() {
+            console.log("!");
+        };
+
     }
 
     SelectionParameterController.$inject = ['$scope', 'metapolatorModel', 'project'];
